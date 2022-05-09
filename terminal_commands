@@ -1,5 +1,0 @@
-nohup python Experiment_A.py &
-nohup python Experiment_B.py &
-nohup python Experiment_C.py &
-nohup python Analysis_plots.py &
-
