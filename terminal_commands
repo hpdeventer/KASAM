@@ -1,0 +1,8 @@
+nohup python Experiment_run.py 0 &
+nohup python Experiment_run.py 1 &
+nohup python Experiment_run.py 2 &
+nohup python Analysis_plots.py &
+
+
+GLOBIGNORE=*Experi*/*images/*_0.npy:*Experi*/*images/*_0.png:*.json:*task_*:*t2*:*t2*:*test*:*.py:terminal*:KASAM_Theory/ 
+rm -f -v *Experi*/*/*
